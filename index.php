@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="">
     <meta name="author" content="">
@@ -1682,7 +1682,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <?php include "companies_stocks.php" ?>
+                    
                     <div class="col-xl-9 wid-100">
                         <div class="row">
                             <div class="col-xl-3 col-sm-6">
@@ -2365,41 +2365,23 @@
 
 
                         <div class="table-responsive">
-                            <table class="table table-responsive-md w-100">
+                            <table class="table header-border table-hover verticle-middle">
+
                                 <thead>
                                     <tr>
-                                        <th><strong>عنوان</strong></th>
-                                        <th><strong>قیمت زنده</strong></th>
+                                        <th scope='col'>عنوان</th>
+                                        <th scope='col'>قیمت زنده </th>
+
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <?php
-                                        $json_file = 'python-scripts/currencies_table.json';
-                                        $json_data = file_get_contents($json_file);
 
-                                        // Remove BOM (Byte Order Mark) if present
-                                        $json_data = preg_replace('/\x{FEFF}/u', '', $json_data);
+                                <tbody id="currTableBody">
 
-                                        $data = json_decode($json_data, true);
-
-                                        if (json_last_error() !== JSON_ERROR_NONE) {
-                                            echo 'Error decoding JSON: ' . json_last_error_msg();
-                                        } else {
-                                            foreach ($data as $value) {
-                                                foreach ($value as $prices) {
-                                                    ?>
-                                                        <tr>
-                                                            <td><strong><?= $prices['0'] ?></strong></td>
-                                                            <td><?= $prices['1'] ?></td>
-                                                        </tr>
-                                                        <?php
-                                                }
-                                            }
-                                        }
-                                    ?>
                                 </tbody>
                             </table>
                         </div>
+
+
 
 
 
@@ -4861,7 +4843,57 @@
 
 
 
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        <?php
+            
+            // PHP code to read JSON data from file
+            $jsonFile2 = 'python-scripts/currencies_table.json';  // Change this to the actual file path
 
+            if (file_exists($jsonFile2)) {
+                $jsonData2 = json_decode(file_get_contents($jsonFile2), true);
+
+                // var_dump($jsonData2);
+
+                // echo 'noo';
+                
+            } else {
+                $jsonData2 = [];
+
+                // echo 'yess';
+            }
+
+            ?>
+
+        // Function to create a table row
+        function createTableRow2(data) {
+            var row = "<tr>";
+
+            for (var i = 0; i < data.length; i++) {
+                if (i == 0 || i == 1) {
+
+                    row += "<td>" + data[i] + "</td>";
+
+                }
+            }
+            row += "</tr>";
+            return row;
+        }
+
+        // Creating the table
+        var tableHTML2 = "";
+
+        <?php for ($i = 0; $i < count($jsonData2) ; $i++) { ?>
+        tableHTML2 += createTableRow2(<?php echo json_encode($jsonData2[$i]); ?>);
+        <?php
+            }
+            ?>
+
+        // Displaying the table
+        document.getElementById("currTableBody").innerHTML = tableHTML2;
+
+    });
+    </script>
 
 </body>
 
