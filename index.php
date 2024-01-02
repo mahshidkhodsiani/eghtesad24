@@ -1,3 +1,7 @@
+<?php
+// Ensure no output before this point
+header('Content-Type: text/html; charset=utf-8');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +37,9 @@
 
     <!-- Style css -->
     <link href="css/style.css" rel="stylesheet">
+
+
+
 
 </head>
 
@@ -1682,7 +1689,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    
+
                     <div class="col-xl-9 wid-100">
                         <div class="row">
                             <div class="col-xl-3 col-sm-6">
@@ -2364,7 +2371,7 @@
 
 
 
-                        <div class="table-responsive">
+                        <!-- <div class="table-responsive">
                             <table class="table header-border table-hover verticle-middle">
 
                                 <thead>
@@ -2379,8 +2386,39 @@
 
                                 </tbody>
                             </table>
-                        </div>
+                        </div> -->
 
+
+                        <div class="table-responsive">
+                            <table class="table table-responsive-md w-100">
+                                <thead>
+                                    <tr>
+                                        <th><strong>عنوان</strong></th>
+                                        <th><strong>قیمت زنده</strong></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                        $json_file = 'python-scripts/currencies_table.json';
+                                        $json_data = file_get_contents($json_file);
+                                        $data = json_decode($json_data, true);
+
+                                        if (json_last_error() !== JSON_ERROR_NONE) {
+                                            echo 'Error decoding JSON: ' . json_last_error_msg();
+                                        } else {
+                                            foreach ($data as $prices) {
+                                                ?>
+                                                        <tr>
+                                                            <td><strong><?= nl2br($prices[0]) ?></strong></td>
+                                                            <td><?= $prices[1] ?></td>
+                                                        </tr>
+                                                        <?php
+                                            }
+                                        }
+                                    ?>
+                                </tbody>
+                            </table>
+                        </div>
 
 
 
