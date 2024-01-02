@@ -2357,42 +2357,55 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 t-earn">
-                        <div class="card">
-                            <div class="card-header border-0 pb-0">
-                                <h4 class="heading mb-0">Total Earning</h4>
-                            </div>
-                            <div class="card-body px-0 overflow-hidden">
-                                <div class="total-earning">
-                                    <h2>$6,743.00</h2>
-                                    <ul class="nav nav-pills mb-3 earning-tab earning-chart" id="pills-tab1"
-                                        role="tablist">
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link active" data-series="day" id="pills-day-tab1"
-                                                data-bs-toggle="pill" data-bs-target="#pills-day1" type="button"
-                                                role="tab" aria-selected="true">Day</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="pills-week-tab1" data-series="week"
-                                                data-bs-toggle="pill" data-bs-target="#pills-week1" type="button"
-                                                role="tab" aria-selected="false">Week</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="pills-month-tab1" data-series="month"
-                                                data-bs-toggle="pill" data-bs-target="#pills-month1" type="button"
-                                                role="tab" aria-selected="false">Month</button>
-                                        </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="pills-year-tab1" data-series="year"
-                                                data-bs-toggle="pill" data-bs-target="#pills-year1" type="button"
-                                                role="tab" aria-selected="false">Year</button>
-                                        </li>
-                                    </ul>
-                                    <div id="earningChart"></div>
-                                </div>
-                            </div>
+
+
+
+                    <div class="col-md-3 col-sm-12">
+
+
+
+                        <div class="table-responsive">
+                            <table class="table table-responsive-md w-100">
+                                <thead>
+                                    <tr>
+                                        <th><strong>عنوان</strong></th>
+                                        <th><strong>قیمت زنده</strong></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                        $json_file = 'python-scripts/currencies_table.json';
+                                        $json_data = file_get_contents($json_file);
+
+                                        // Remove BOM (Byte Order Mark) if present
+                                        $json_data = preg_replace('/\x{FEFF}/u', '', $json_data);
+
+                                        $data = json_decode($json_data, true);
+
+                                        if (json_last_error() !== JSON_ERROR_NONE) {
+                                            echo 'Error decoding JSON: ' . json_last_error_msg();
+                                        } else {
+                                            foreach ($data as $value) {
+                                                foreach ($value as $prices) {
+                                                    ?>
+                                                        <tr>
+                                                            <td><strong><?= $prices['0'] ?></strong></td>
+                                                            <td><?= $prices['1'] ?></td>
+                                                        </tr>
+                                                        <?php
+                                                }
+                                            }
+                                        }
+                                    ?>
+                                </tbody>
+                            </table>
                         </div>
+
+
+
                     </div>
+
+
                     <div class="col-xl-6 active-p">
                         <div class="card">
                             <div class="card-body p-0">
