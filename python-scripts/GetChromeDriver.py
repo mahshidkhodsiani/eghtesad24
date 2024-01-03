@@ -10,7 +10,7 @@ def Get_Driver ():
     options.add_argument('--disable-gpu')
 
     try:
-        CHROMEDRIVER_PATH = r"D:\xamp\htdocs\eghtesad24\New folder\chromedriver.exe"
+        CHROMEDRIVER_PATH = r"D:\xamp\htdocs\eghtesad24\python-scripts\chromedriver.exe"
         service = Service(CHROMEDRIVER_PATH)
         driver = webdriver.Chrome(service=service, options=options)
 
