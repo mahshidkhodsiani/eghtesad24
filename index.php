@@ -3,7 +3,7 @@
 header('Content-Type: text/html; charset=utf-8');
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="fa">
 
 <head>
     <meta charset="UTF-8">
@@ -43,8 +43,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 </head>
 
-<body data-typography="poppins" data-theme-version="light" data-layout="vertical" data-nav-headerbg="black"
-    data-headerbg="color_1">
+<body data-typography="poppins" data-theme-version="light" data-layout="vertical" data-nav-headerbg="black" data-headerbg="color_1">
 
     <!--*******************
         Preloader start
@@ -66,7 +65,7 @@ header('Content-Type: text/html; charset=utf-8');
 
 
 
-        <div class="header">
+        <!-- <div class="header">
             <div class="header-content">
                 <nav class="navbar navbar-expand">
                     <div class="collapse navbar-collapse justify-content-between">
@@ -74,12 +73,9 @@ header('Content-Type: text/html; charset=utf-8');
                             <form>
                                 <div class="input-group search-area">
                                     <span class="input-group-text"><button class="bg-transparent border-0">
-                                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx="8.78605" cy="8.78605" r="8.23951" stroke="white"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
-                                                <path d="M14.5168 14.9447L17.7471 18.1667" stroke="white"
-                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="8.78605" cy="8.78605" r="8.23951" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M14.5168 14.9447L17.7471 18.1667" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
                                         </button></span>
                                     <input type="text" class="form-control" placeholder="Search">
@@ -89,13 +85,9 @@ header('Content-Type: text/html; charset=utf-8');
                         <ul class="navbar-nav header-right">
                             <li class="nav-item dropdown notification_dropdown">
                                 <a class="nav-link " href="javascript:void(0);" data-bs-toggle="dropdown">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M20.8067 7.62358L20.1842 6.54349C19.6577 5.62957 18.4907 5.31429 17.5755 5.83869V5.83869C17.1399 6.09531 16.6201 6.16812 16.1307 6.04106C15.6413 5.91399 15.2226 5.59749 14.9668 5.16134C14.8023 4.88412 14.7139 4.56836 14.7105 4.24601V4.24601C14.7254 3.72919 14.5304 3.22837 14.17 2.85764C13.8096 2.48691 13.3145 2.27783 12.7975 2.27805H11.5435C11.037 2.27804 10.5513 2.47988 10.194 2.83891C9.83669 3.19795 9.63717 3.68456 9.63961 4.19109V4.19109C9.6246 5.23689 8.77248 6.07678 7.72657 6.07667C7.40421 6.07332 7.08846 5.98491 6.81123 5.82038V5.82038C5.89606 5.29598 4.72911 5.61126 4.20254 6.52519L3.53435 7.62358C3.00841 8.53636 3.3194 9.70258 4.23 10.2323V10.2323C4.8219 10.574 5.18653 11.2056 5.18653 11.889C5.18653 12.5725 4.8219 13.204 4.23 13.5458V13.5458C3.32056 14.0719 3.00923 15.2353 3.53435 16.1453V16.1453L4.16593 17.2346C4.41265 17.6798 4.8266 18.0083 5.31619 18.1474C5.80578 18.2866 6.33064 18.2249 6.77462 17.976V17.976C7.21108 17.7213 7.73119 17.6515 8.21934 17.7822C8.70749 17.9128 9.12324 18.233 9.37416 18.6716C9.5387 18.9489 9.62711 19.2646 9.63046 19.587V19.587C9.63046 20.6435 10.487 21.5 11.5435 21.5H12.7975C13.8505 21.5 14.7055 20.6491 14.7105 19.5961V19.5961C14.7081 19.088 14.9089 18.6 15.2682 18.2407C15.6275 17.8814 16.1155 17.6806 16.6236 17.6831C16.9452 17.6917 17.2596 17.7797 17.5389 17.9394V17.9394C18.4517 18.4653 19.6179 18.1543 20.1476 17.2437V17.2437L20.8067 16.1453C21.0618 15.7075 21.1318 15.186 21.0012 14.6963C20.8706 14.2067 20.5502 13.7893 20.111 13.5366V13.5366C19.6718 13.2839 19.3514 12.8665 19.2208 12.3769C19.0902 11.8873 19.1603 11.3658 19.4154 10.9279C19.5812 10.6383 19.8214 10.3982 20.111 10.2323V10.2323C21.0161 9.70286 21.3264 8.54346 20.8067 7.63274V7.63274V7.62358Z"
-                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
-                                        <circle cx="12.1751" cy="11.889" r="2.63616" stroke="white"
-                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8067 7.62358L20.1842 6.54349C19.6577 5.62957 18.4907 5.31429 17.5755 5.83869V5.83869C17.1399 6.09531 16.6201 6.16812 16.1307 6.04106C15.6413 5.91399 15.2226 5.59749 14.9668 5.16134C14.8023 4.88412 14.7139 4.56836 14.7105 4.24601V4.24601C14.7254 3.72919 14.5304 3.22837 14.17 2.85764C13.8096 2.48691 13.3145 2.27783 12.7975 2.27805H11.5435C11.037 2.27804 10.5513 2.47988 10.194 2.83891C9.83669 3.19795 9.63717 3.68456 9.63961 4.19109V4.19109C9.6246 5.23689 8.77248 6.07678 7.72657 6.07667C7.40421 6.07332 7.08846 5.98491 6.81123 5.82038V5.82038C5.89606 5.29598 4.72911 5.61126 4.20254 6.52519L3.53435 7.62358C3.00841 8.53636 3.3194 9.70258 4.23 10.2323V10.2323C4.8219 10.574 5.18653 11.2056 5.18653 11.889C5.18653 12.5725 4.8219 13.204 4.23 13.5458V13.5458C3.32056 14.0719 3.00923 15.2353 3.53435 16.1453V16.1453L4.16593 17.2346C4.41265 17.6798 4.8266 18.0083 5.31619 18.1474C5.80578 18.2866 6.33064 18.2249 6.77462 17.976V17.976C7.21108 17.7213 7.73119 17.6515 8.21934 17.7822C8.70749 17.9128 9.12324 18.233 9.37416 18.6716C9.5387 18.9489 9.62711 19.2646 9.63046 19.587V19.587C9.63046 20.6435 10.487 21.5 11.5435 21.5H12.7975C13.8505 21.5 14.7055 20.6491 14.7105 19.5961V19.5961C14.7081 19.088 14.9089 18.6 15.2682 18.2407C15.6275 17.8814 16.1155 17.6806 16.6236 17.6831C16.9452 17.6917 17.2596 17.7797 17.5389 17.9394V17.9394C18.4517 18.4653 19.6179 18.1543 20.1476 17.2437V17.2437L20.8067 16.1453C21.0618 15.7075 21.1318 15.186 21.0012 14.6963C20.8706 14.2067 20.5502 13.7893 20.111 13.5366V13.5366C19.6718 13.2839 19.3514 12.8665 19.2208 12.3769C19.0902 11.8873 19.1603 11.3658 19.4154 10.9279C19.5812 10.6383 19.8214 10.3982 20.111 10.2323V10.2323C21.0161 9.70286 21.3264 8.54346 20.8067 7.63274V7.63274V7.62358Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                        <circle cx="12.1751" cy="11.889" r="2.63616" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
 
                                 </a>
@@ -116,8 +108,7 @@ header('Content-Type: text/html; charset=utf-8');
                                                 </div>
                                                 <a class="timeline-panel text-muted" href="javascript:void(0);">
                                                     <span>20 minutes ago</span>
-                                                    <h6 class="mb-0">New order placed <strong
-                                                            class="text-info">#XF-2356.</strong></h6>
+                                                    <h6 class="mb-0">New order placed <strong class="text-info">#XF-2356.</strong></h6>
                                                     <p class="mb-0">Quisque a consequat ante Sit amet magna at
                                                         volutapt...</p>
                                                 </a>
@@ -127,8 +118,7 @@ header('Content-Type: text/html; charset=utf-8');
                                                 </div>
                                                 <a class="timeline-panel text-muted" href="javascript:void(0);">
                                                     <span>30 minutes ago</span>
-                                                    <h6 class="mb-0">john just buy your product <strong
-                                                            class="text-warning">Sell $250</strong></h6>
+                                                    <h6 class="mb-0">john just buy your product <strong class="text-warning">Sell $250</strong></h6>
                                                 </a>
                                             </li>
                                             <li>
@@ -163,19 +153,13 @@ header('Content-Type: text/html; charset=utf-8');
                             </li>
                             <li class="nav-item dropdown notification_dropdown">
                                 <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z"
-                                            stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                        <path
-                                            d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21"
-                                            stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18 8C18 6.4087 17.3679 4.88258 16.2426 3.75736C15.1174 2.63214 13.5913 2 12 2C10.4087 2 8.88258 2.63214 7.75736 3.75736C6.63214 4.88258 6 6.4087 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M13.73 21C13.5542 21.3031 13.3019 21.5547 12.9982 21.7295C12.6946 21.9044 12.3504 21.9965 12 21.9965C11.6496 21.9965 11.3054 21.9044 11.0018 21.7295C10.6982 21.5547 10.4458 21.3031 10.27 21" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end">
-                                    <div id="DZ_W_Notification1" class="widget-media dz-scroll p-3"
-                                        style="height:380px;">
+                                    <div id="DZ_W_Notification1" class="widget-media dz-scroll p-3" style="height:380px;">
                                         <ul class="timeline">
                                             <li>
                                                 <div class="timeline-panel">
@@ -311,48 +295,31 @@ header('Content-Type: text/html; charset=utf-8');
                                             </li>
                                         </ul>
                                     </div>
-                                    <a class="all-notification" href="javascript:void(0);">See all notifications <i
-                                            class="ti-arrow-end"></i></a>
+                                    <a class="all-notification" href="javascript:void(0);">See all notifications <i class="ti-arrow-end"></i></a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown notification_dropdown">
                                 <a class="nav-link bell-link" href="javascript:void(0);">
-                                    <svg width="20" height="22" viewBox="0 0 22 20" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M16.9026 6.85114L12.4593 10.4642C11.6198 11.1302 10.4387 11.1302 9.59922 10.4642L5.11844 6.85114"
-                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M15.9089 19C18.9502 19.0084 21 16.5095 21 13.4384V6.57001C21 3.49883 18.9502 1 15.9089 1H6.09114C3.04979 1 1 3.49883 1 6.57001V13.4384C1 16.5095 3.04979 19.0084 6.09114 19H15.9089Z"
-                                            stroke="white" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
+                                    <svg width="20" height="22" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.9026 6.85114L12.4593 10.4642C11.6198 11.1302 10.4387 11.1302 9.59922 10.4642L5.11844 6.85114" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9089 19C18.9502 19.0084 21 16.5095 21 13.4384V6.57001C21 3.49883 18.9502 1 15.9089 1H6.09114C3.04979 1 1 3.49883 1 6.57001V13.4384C1 16.5095 3.04979 19.0084 6.09114 19H15.9089Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
 
                                 </a>
                             </li>
                             <li class="nav-item dropdown notification_dropdown">
                                 <a class="nav-link bell dz-fullscreen" href="javascript:void(0);">
-                                    <svg id="icon-full" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor"
-                                        stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
-                                        class="css-i6dzq1">
-                                        <path
-                                            d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"
-                                            style="stroke-dasharray: 37, 57; stroke-dashoffset: 0;"></path>
+                                    <svg id="icon-full" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
+                                        <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" style="stroke-dasharray: 37, 57; stroke-dashoffset: 0;"></path>
                                     </svg>
-                                    <svg id="icon-minimize" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                        stroke="A098AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                        class="feather feather-minimize">
-                                        <path
-                                            d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"
-                                            style="stroke-dasharray: 37, 57; stroke-dashoffset: 0;"></path>
+                                    <svg id="icon-minimize" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="A098AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minimize">
+                                        <path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3" style="stroke-dasharray: 37, 57; stroke-dashoffset: 0;"></path>
                                     </svg>
                                 </a>
                             </li>
                             <li class="nav-item ps-3">
                                 <div class="dropdown header-profile2">
-                                    <a class="nav-link" href="javascript:void(0);" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <div class="header-info2 d-flex align-items-center">
                                             <div class="header-media">
                                                 <img src="images/tab/1.jpg" alt="">
@@ -377,58 +344,33 @@ header('Content-Type: text/html; charset=utf-8');
                                             </div>
                                             <div class="card-body px-0 py-2">
                                                 <a href="app-profile.html" class="dropdown-item ai-icon ">
-                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M11.9848 15.3462C8.11714 15.3462 4.81429 15.931 4.81429 18.2729C4.81429 20.6148 8.09619 21.2205 11.9848 21.2205C15.8524 21.2205 19.1543 20.6348 19.1543 18.2938C19.1543 15.9529 15.8733 15.3462 11.9848 15.3462Z"
-                                                            stroke="var(--primary)" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M11.9848 12.0059C14.5229 12.0059 16.58 9.94779 16.58 7.40969C16.58 4.8716 14.5229 2.81445 11.9848 2.81445C9.44667 2.81445 7.38857 4.8716 7.38857 7.40969C7.38 9.93922 9.42381 11.9973 11.9524 12.0059H11.9848Z"
-                                                            stroke="var(--primary)" stroke-width="1.42857"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9848 15.3462C8.11714 15.3462 4.81429 15.931 4.81429 18.2729C4.81429 20.6148 8.09619 21.2205 11.9848 21.2205C15.8524 21.2205 19.1543 20.6348 19.1543 18.2938C19.1543 15.9529 15.8733 15.3462 11.9848 15.3462Z" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9848 12.0059C14.5229 12.0059 16.58 9.94779 16.58 7.40969C16.58 4.8716 14.5229 2.81445 11.9848 2.81445C9.44667 2.81445 7.38857 4.8716 7.38857 7.40969C7.38 9.93922 9.42381 11.9973 11.9524 12.0059H11.9848Z" stroke="var(--primary)" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round" />
                                                     </svg>
 
                                                     <span class="ms-2">Profile </span>
                                                 </a>
                                                 <a href="app-profile.html" class="dropdown-item ai-icon ">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19"
-                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                        class="feather feather-pie-chart">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-pie-chart">
                                                         <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
                                                         <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
                                                     </svg>
 
-                                                    <span class="ms-2">My Project</span><span
-                                                        class="badge badge-sm badge-secondary light rounded-circle text-white ms-2">4</span>
+                                                    <span class="ms-2">My Project</span><span class="badge badge-sm badge-secondary light rounded-circle text-white ms-2">4</span>
                                                 </a>
                                                 <a href="javascript:void(0);" class="dropdown-item ai-icon ">
-                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path
-                                                            d="M17.9026 8.85114L13.4593 12.4642C12.6198 13.1302 11.4387 13.1302 10.5992 12.4642L6.11844 8.85114"
-                                                            stroke="var(--primary)" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M16.9089 21C19.9502 21.0084 22 18.5095 22 15.4384V8.57001C22 5.49883 19.9502 3 16.9089 3H7.09114C4.04979 3 2 5.49883 2 8.57001V15.4384C2 18.5095 4.04979 21.0084 7.09114 21H16.9089Z"
-                                                            stroke="var(--primary)" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M17.9026 8.85114L13.4593 12.4642C12.6198 13.1302 11.4387 13.1302 10.5992 12.4642L6.11844 8.85114" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9089 21C19.9502 21.0084 22 18.5095 22 15.4384V8.57001C22 5.49883 19.9502 3 16.9089 3H7.09114C4.04979 3 2 5.49883 2 8.57001V15.4384C2 18.5095 4.04979 21.0084 7.09114 21H16.9089Z" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                     </svg>
 
                                                     <span class="ms-2">Message </span>
                                                 </a>
                                                 <a href="email-inbox.html" class="dropdown-item ai-icon ">
-                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M12 17.8476C17.6392 17.8476 20.2481 17.1242 20.5 14.2205C20.5 11.3188 18.6812 11.5054 18.6812 7.94511C18.6812 5.16414 16.0452 2 12 2C7.95477 2 5.31885 5.16414 5.31885 7.94511C5.31885 11.5054 3.5 11.3188 3.5 14.2205C3.75295 17.1352 6.36177 17.8476 12 17.8476Z"
-                                                            stroke="var(--primary)" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                        <path
-                                                            d="M14.3888 20.8572C13.0247 22.372 10.8967 22.3899 9.51947 20.8572"
-                                                            stroke="var(--primary)" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 17.8476C17.6392 17.8476 20.2481 17.1242 20.5 14.2205C20.5 11.3188 18.6812 11.5054 18.6812 7.94511C18.6812 5.16414 16.0452 2 12 2C7.95477 2 5.31885 5.16414 5.31885 7.94511C5.31885 11.5054 3.5 11.3188 3.5 14.2205C3.75295 17.1352 6.36177 17.8476 12 17.8476Z" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <path d="M14.3888 20.8572C13.0247 22.372 10.8967 22.3899 9.51947 20.8572" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                     </svg>
 
                                                     <span class="ms-2">Notification </span>
@@ -436,24 +378,15 @@ header('Content-Type: text/html; charset=utf-8');
                                             </div>
                                             <div class="card-footer px-0 py-2">
                                                 <a href="javascript:void(0);" class="dropdown-item ai-icon ">
-                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M20.8066 7.62355L20.1842 6.54346C19.6576 5.62954 18.4907 5.31426 17.5755 5.83866V5.83866C17.1399 6.09528 16.6201 6.16809 16.1307 6.04103C15.6413 5.91396 15.2226 5.59746 14.9668 5.16131C14.8023 4.88409 14.7139 4.56833 14.7105 4.24598V4.24598C14.7254 3.72916 14.5304 3.22834 14.17 2.85761C13.8096 2.48688 13.3145 2.2778 12.7975 2.27802H11.5435C11.0369 2.27801 10.5513 2.47985 10.194 2.83888C9.83666 3.19791 9.63714 3.68453 9.63958 4.19106V4.19106C9.62457 5.23686 8.77245 6.07675 7.72654 6.07664C7.40418 6.07329 7.08843 5.98488 6.8112 5.82035V5.82035C5.89603 5.29595 4.72908 5.61123 4.20251 6.52516L3.53432 7.62355C3.00838 8.53633 3.31937 9.70255 4.22997 10.2322V10.2322C4.82187 10.574 5.1865 11.2055 5.1865 11.889C5.1865 12.5725 4.82187 13.204 4.22997 13.5457V13.5457C3.32053 14.0719 3.0092 15.2353 3.53432 16.1453V16.1453L4.16589 17.2345C4.41262 17.6797 4.82657 18.0082 5.31616 18.1474C5.80575 18.2865 6.33061 18.2248 6.77459 17.976V17.976C7.21105 17.7213 7.73116 17.6515 8.21931 17.7821C8.70746 17.9128 9.12321 18.233 9.37413 18.6716C9.53867 18.9488 9.62708 19.2646 9.63043 19.5869V19.5869C9.63043 20.6435 10.4869 21.5 11.5435 21.5H12.7975C13.8505 21.5 14.7055 20.6491 14.7105 19.5961V19.5961C14.7081 19.088 14.9088 18.6 15.2681 18.2407C15.6274 17.8814 16.1154 17.6806 16.6236 17.6831C16.9451 17.6917 17.2596 17.7797 17.5389 17.9393V17.9393C18.4517 18.4653 19.6179 18.1543 20.1476 17.2437V17.2437L20.8066 16.1453C21.0617 15.7074 21.1317 15.1859 21.0012 14.6963C20.8706 14.2067 20.5502 13.7893 20.111 13.5366V13.5366C19.6717 13.2839 19.3514 12.8665 19.2208 12.3769C19.0902 11.8872 19.1602 11.3658 19.4153 10.9279C19.5812 10.6383 19.8213 10.3981 20.111 10.2322V10.2322C21.0161 9.70283 21.3264 8.54343 20.8066 7.63271V7.63271V7.62355Z"
-                                                            stroke="var(--primary)" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                        <circle cx="12.175" cy="11.889" r="2.63616"
-                                                            stroke="var(--primary)" stroke-width="1.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M20.8066 7.62355L20.1842 6.54346C19.6576 5.62954 18.4907 5.31426 17.5755 5.83866V5.83866C17.1399 6.09528 16.6201 6.16809 16.1307 6.04103C15.6413 5.91396 15.2226 5.59746 14.9668 5.16131C14.8023 4.88409 14.7139 4.56833 14.7105 4.24598V4.24598C14.7254 3.72916 14.5304 3.22834 14.17 2.85761C13.8096 2.48688 13.3145 2.2778 12.7975 2.27802H11.5435C11.0369 2.27801 10.5513 2.47985 10.194 2.83888C9.83666 3.19791 9.63714 3.68453 9.63958 4.19106V4.19106C9.62457 5.23686 8.77245 6.07675 7.72654 6.07664C7.40418 6.07329 7.08843 5.98488 6.8112 5.82035V5.82035C5.89603 5.29595 4.72908 5.61123 4.20251 6.52516L3.53432 7.62355C3.00838 8.53633 3.31937 9.70255 4.22997 10.2322V10.2322C4.82187 10.574 5.1865 11.2055 5.1865 11.889C5.1865 12.5725 4.82187 13.204 4.22997 13.5457V13.5457C3.32053 14.0719 3.0092 15.2353 3.53432 16.1453V16.1453L4.16589 17.2345C4.41262 17.6797 4.82657 18.0082 5.31616 18.1474C5.80575 18.2865 6.33061 18.2248 6.77459 17.976V17.976C7.21105 17.7213 7.73116 17.6515 8.21931 17.7821C8.70746 17.9128 9.12321 18.233 9.37413 18.6716C9.53867 18.9488 9.62708 19.2646 9.63043 19.5869V19.5869C9.63043 20.6435 10.4869 21.5 11.5435 21.5H12.7975C13.8505 21.5 14.7055 20.6491 14.7105 19.5961V19.5961C14.7081 19.088 14.9088 18.6 15.2681 18.2407C15.6274 17.8814 16.1154 17.6806 16.6236 17.6831C16.9451 17.6917 17.2596 17.7797 17.5389 17.9393V17.9393C18.4517 18.4653 19.6179 18.1543 20.1476 17.2437V17.2437L20.8066 16.1453C21.0617 15.7074 21.1317 15.1859 21.0012 14.6963C20.8706 14.2067 20.5502 13.7893 20.111 13.5366V13.5366C19.6717 13.2839 19.3514 12.8665 19.2208 12.3769C19.0902 11.8872 19.1602 11.3658 19.4153 10.9279C19.5812 10.6383 19.8213 10.3981 20.111 10.2322V10.2322C21.0161 9.70283 21.3264 8.54343 20.8066 7.63271V7.63271V7.62355Z" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        <circle cx="12.175" cy="11.889" r="2.63616" stroke="var(--primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                     </svg>
 
                                                     <span class="ms-2">Settings </span>
                                                 </a>
                                                 <a href="page-login.html" class="dropdown-item ai-icon">
-                                                    <svg class="profle-logout" xmlns="http://www.w3.org/2000/svg"
-                                                        width="18" height="18" viewBox="0 0 24 24" fill="none"
-                                                        stroke="#ff7979" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round">
+                                                    <svg class="profle-logout" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff7979" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                                         <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
                                                         <polyline points="16 17 21 12 16 7"></polyline>
                                                         <line x1="21" y1="12" x2="9" y2="12"></line>
@@ -470,7 +403,7 @@ header('Content-Type: text/html; charset=utf-8');
                     </div>
                 </nav>
             </div>
-        </div>
+        </div> -->
 
 
         <div class="content-body">
@@ -481,349 +414,442 @@ header('Content-Type: text/html; charset=utf-8');
             ?>
 
             <div class="container-fluid">
-                <div>
-                    <div class="row">
-
-                        <div class="col-xl-9 wid-100">
-                            <div class="row">
 
 
 
 
-                                <div class="col-xl-3 col-sm-6">
-                                    <div class="card chart-grd same-card">
-                                        <div class="card-body depostit-card p-1">
-                                            <!-- TradingView Widget BEGIN -->
-                                            <div class="tradingview-widget-container">
-                                                <div class="tradingview-widget-container__widget"></div>
-                                                <div class="tradingview-widget-copyright"><a
-                                                        href="https://www.tradingview.com/" rel="noopener nofollow"
-                                                        target="_blank"><span class="blue-text">Track all markets on
-                                                            TradingView</span></a></div>
-                                                <script type="text/javascript"
-                                                    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                                                    async>
-                                                {
-                                                    "symbol": "FX_IDC:JPYUSD",
-                                                    "width": 350,
-                                                    "height": 220,
-                                                    "locale": "en",
-                                                    "dateRange": "12M",
-                                                    "colorTheme": "light",
-                                                    "isTransparent": false,
-                                                    "autosize": false,
-                                                    "largeChartUrl": ""
-                                                }
-                                                </script>
-                                            </div>
-                                            <!-- TradingView Widget END -->
-                                        </div>
-                                    </div>
+                <div class="row ">
+
+
+
+
+                    <div class="col-lg-3 col-sm-12 ">
+                        <div class="card chart-grd same-card">
+                            <div class="card-body depostit-card p-1">
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
+                                                markets on
+                                                TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                                        {
+                                            "symbol": "FX_IDC:JPYUSD",
+                                            "width": 350,
+                                            "height": 220,
+                                            "locale": "en",
+                                            "dateRange": "12M",
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
+                                            "autosize": false,
+                                            "largeChartUrl": ""
+                                        }
+                                    </script>
                                 </div>
-                                <div class="col-xl-3 col-sm-6">
-                                    <div class="card chart-grd same-card">
-                                        <div class="card-body depostit-card p-1">
-                                            <!-- TradingView Widget BEGIN -->
-                                            <div class="tradingview-widget-container">
-                                                <div class="tradingview-widget-container__widget"></div>
-                                                <div class="tradingview-widget-copyright"><a
-                                                        href="https://www.tradingview.com/" rel="noopener nofollow"
-                                                        target="_blank"><span class="blue-text">Track all markets on
-                                                            TradingView</span></a></div>
-                                                <script type="text/javascript"
-                                                    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                                                    async>
-                                                {
-                                                    "symbol": "FX:EURUSD",
-                                                    "width": 350,
-                                                    "height": 220,
-                                                    "locale": "en",
-                                                    "dateRange": "12M",
-                                                    "colorTheme": "light",
-                                                    "isTransparent": false,
-                                                    "autosize": false,
-                                                    "largeChartUrl": ""
-                                                }
-                                                </script>
-                                            </div>
-                                            <!-- TradingView Widget END -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-sm-6">
-                                    <div class="card chart-grd same-card">
-                                        <div class="card-body depostit-card p-1">
-
-                                            <!-- TradingView Widget BEGIN -->
-                                            <div class="tradingview-widget-container">
-                                                <div class="tradingview-widget-container__widget"></div>
-                                                <div class="tradingview-widget-copyright"><a
-                                                        href="https://www.tradingview.com/" rel="noopener nofollow"
-                                                        target="_blank"><span class="blue-text">Track all markets on
-                                                            TradingView</span></a></div>
-                                                <script type="text/javascript"
-                                                    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                                                    async>
-                                                {
-                                                    "symbol": "FX_IDC:CADUSD",
-                                                    "width": 350,
-                                                    "height": 220,
-                                                    "locale": "en",
-                                                    "dateRange": "12M",
-                                                    "colorTheme": "light",
-                                                    "isTransparent": false,
-                                                    "autosize": false,
-                                                    "largeChartUrl": ""
-                                                }
-                                                </script>
-                                            </div>
-                                            <!-- TradingView Widget END -->
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-sm-6">
-                                    <div class="card chart-grd same-card">
-                                        <div class="card-body depostit-card p-1">
-
-                                            <!-- TradingView Widget BEGIN -->
-                                            <div class="tradingview-widget-container">
-                                                <div class="tradingview-widget-container__widget"></div>
-                                                <div class="tradingview-widget-copyright"><a
-                                                        href="https://www.tradingview.com/" rel="noopener nofollow"
-                                                        target="_blank"><span class="blue-text">Track all markets on
-                                                            TradingView</span></a></div>
-                                                <script type="text/javascript"
-                                                    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                                                    async>
-                                                {
-                                                    "symbol": "FX:GBPUSD",
-                                                    "width": 350,
-                                                    "height": 220,
-                                                    "locale": "en",
-                                                    "dateRange": "12M",
-                                                    "colorTheme": "light",
-                                                    "isTransparent": false,
-                                                    "autosize": false,
-                                                    "largeChartUrl": ""
-                                                }
-                                                </script>
-                                            </div>
-                                            <!-- TradingView Widget END -->
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-
-
-
+                                <!-- TradingView Widget END -->
                             </div>
-                            <div class="row">
-
-
-
-
-                                <div class="col-xl-3 col-sm-6">
-                                    <div class="card chart-grd same-card">
-                                        <div class="card-body depostit-card p-1">
-                                            <!-- TradingView Widget BEGIN -->
-                                            <div class="tradingview-widget-container">
-                                                <div class="tradingview-widget-container__widget"></div>
-                                                <div class="tradingview-widget-copyright"><a
-                                                        href="https://www.tradingview.com/" rel="noopener nofollow"
-                                                        target="_blank"><span class="blue-text">Track all markets on
-                                                            TradingView</span></a></div>
-                                                <script type="text/javascript"
-                                                    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                                                    async>
-                                                {
-                                                    "symbol": "FX_IDC:JPYUSD",
-                                                    "width": 350,
-                                                    "height": 220,
-                                                    "locale": "en",
-                                                    "dateRange": "12M",
-                                                    "colorTheme": "light",
-                                                    "isTransparent": false,
-                                                    "autosize": false,
-                                                    "largeChartUrl": ""
-                                                }
-                                                </script>
-                                            </div>
-                                            <!-- TradingView Widget END -->
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card chart-grd same-card">
+                            <div class="card-body depostit-card p-1">
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
+                                                markets on
+                                                TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                                        {
+                                            "symbol": "FX:EURUSD",
+                                            "width": 350,
+                                            "height": 220,
+                                            "locale": "en",
+                                            "dateRange": "12M",
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
+                                            "autosize": false,
+                                            "largeChartUrl": ""
+                                        }
+                                    </script>
                                 </div>
-                                <div class="col-xl-3 col-sm-6">
-                                    <div class="card chart-grd same-card">
-                                        <div class="card-body depostit-card p-1">
-                                            <!-- TradingView Widget BEGIN -->
-                                            <div class="tradingview-widget-container">
-                                                <div class="tradingview-widget-container__widget"></div>
-                                                <div class="tradingview-widget-copyright"><a
-                                                        href="https://www.tradingview.com/" rel="noopener nofollow"
-                                                        target="_blank"><span class="blue-text">Track all markets on
-                                                            TradingView</span></a></div>
-                                                <script type="text/javascript"
-                                                    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                                                    async>
-                                                {
-                                                    "symbol": "FX:EURUSD",
-                                                    "width": 350,
-                                                    "height": 220,
-                                                    "locale": "en",
-                                                    "dateRange": "12M",
-                                                    "colorTheme": "light",
-                                                    "isTransparent": false,
-                                                    "autosize": false,
-                                                    "largeChartUrl": ""
-                                                }
-                                                </script>
-                                            </div>
-                                            <!-- TradingView Widget END -->
-                                        </div>
-                                    </div>
+                                <!-- TradingView Widget END -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card chart-grd same-card">
+                            <div class="card-body depostit-card p-1">
+
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
+                                                markets on
+                                                TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                                        {
+                                            "symbol": "FX_IDC:CADUSD",
+                                            "width": 350,
+                                            "height": 220,
+                                            "locale": "en",
+                                            "dateRange": "12M",
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
+                                            "autosize": false,
+                                            "largeChartUrl": ""
+                                        }
+                                    </script>
                                 </div>
-                                <div class="col-xl-3 col-sm-6">
-                                    <div class="card chart-grd same-card">
-                                        <div class="card-body depostit-card p-1">
-
-                                            <!-- TradingView Widget BEGIN -->
-                                            <div class="tradingview-widget-container">
-                                                <div class="tradingview-widget-container__widget"></div>
-                                                <div class="tradingview-widget-copyright"><a
-                                                        href="https://www.tradingview.com/" rel="noopener nofollow"
-                                                        target="_blank"><span class="blue-text">Track all markets on
-                                                            TradingView</span></a></div>
-                                                <script type="text/javascript"
-                                                    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                                                    async>
-                                                {
-                                                    "symbol": "FX_IDC:CADUSD",
-                                                    "width": 350,
-                                                    "height": 220,
-                                                    "locale": "en",
-                                                    "dateRange": "12M",
-                                                    "colorTheme": "light",
-                                                    "isTransparent": false,
-                                                    "autosize": false,
-                                                    "largeChartUrl": ""
-                                                }
-                                                </script>
-                                            </div>
-                                            <!-- TradingView Widget END -->
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3 col-sm-6">
-                                    <div class="card chart-grd same-card">
-                                        <div class="card-body depostit-card p-1">
-
-                                            <!-- TradingView Widget BEGIN -->
-                                            <div class="tradingview-widget-container">
-                                                <div class="tradingview-widget-container__widget"></div>
-                                                <div class="tradingview-widget-copyright"><a
-                                                        href="https://www.tradingview.com/" rel="noopener nofollow"
-                                                        target="_blank"><span class="blue-text">Track all markets on
-                                                            TradingView</span></a></div>
-                                                <script type="text/javascript"
-                                                    src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js"
-                                                    async>
-                                                {
-                                                    "symbol": "FX:GBPUSD",
-                                                    "width": 350,
-                                                    "height": 220,
-                                                    "locale": "en",
-                                                    "dateRange": "12M",
-                                                    "colorTheme": "light",
-                                                    "isTransparent": false,
-                                                    "autosize": false,
-                                                    "largeChartUrl": ""
-                                                }
-                                                </script>
-                                            </div>
-                                            <!-- TradingView Widget END -->
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-
-
+                                <!-- TradingView Widget END -->
 
                             </div>
                         </div>
-
-
-
-
-
-
                     </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card chart-grd same-card">
+                            <div class="card-body depostit-card p-1">
+
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
+                                                markets on
+                                                TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                                        {
+                                            "symbol": "FX:GBPUSD",
+                                            "width": 350,
+                                            "height": 220,
+                                            "locale": "en",
+                                            "dateRange": "12M",
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
+                                            "autosize": false,
+                                            "largeChartUrl": ""
+                                        }
+                                    </script>
+                                </div>
+                                <!-- TradingView Widget END -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
 
 
                 </div>
 
-                <div style="margin-left: 20px; margin-right: 20px">
-                    <div class="row">
 
-                        <div class="col-md-6">
-                            <div class="tradingview-widget-container">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript"
-                                    src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js"
-                                    async>
-                                {
-                                    "symbol": "FX:EURUSD",
-                                    "width": "100%",
-                                    "isTransparent": false,
-                                    "colorTheme": "light",
-                                    "locale": "en"
-                                }
-                                </script>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="tradingview-widget-container" style="height:100%;width:100%">
-                                <div class="tradingview-widget-container__widget"
-                                    style="height:calc(100% - 32px);width:100%">
+
+
+                <div class="row ">
+
+
+
+
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card chart-grd same-card">
+                            <div class="card-body depostit-card p-1">
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
+                                                markets on
+                                                TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                                        {
+                                            "symbol": "FX_IDC:JPYUSD",
+                                            "width": 350,
+                                            "height": 220,
+                                            "locale": "en",
+                                            "dateRange": "12M",
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
+                                            "autosize": false,
+                                            "largeChartUrl": ""
+                                        }
+                                    </script>
                                 </div>
-                                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/"
-                                        rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
-                                            markets on
-                                            TradingView</span></a></div>
-                                <script type="text/javascript"
-                                    src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"
-                                    async>
-                                {
-                                    "autosize": true,
-                                    "symbol": "NASDAQ:AAPL",
-                                    "interval": "D",
-                                    "timezone": "Etc/UTC",
-                                    "theme": "light",
-                                    "style": "2",
-                                    "locale": "en",
-                                    "enable_publishing": false,
-                                    "hide_top_toolbar": true,
-                                    "hide_legend": true,
-                                    "save_image": false,
-                                    "hide_volume": true,
-                                    "support_host": "https://www.tradingview.com"
-                                }
-                                </script>
+                                <!-- TradingView Widget END -->
                             </div>
                         </div>
-
-
                     </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card chart-grd same-card">
+                            <div class="card-body depostit-card p-1">
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
+                                                markets on
+                                                TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                                        {
+                                            "symbol": "FX:EURUSD",
+                                            "width": 350,
+                                            "height": 220,
+                                            "locale": "en",
+                                            "dateRange": "12M",
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
+                                            "autosize": false,
+                                            "largeChartUrl": ""
+                                        }
+                                    </script>
+                                </div>
+                                <!-- TradingView Widget END -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card chart-grd same-card">
+                            <div class="card-body depostit-card p-1">
+
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
+                                                markets on
+                                                TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                                        {
+                                            "symbol": "FX_IDC:CADUSD",
+                                            "width": 350,
+                                            "height": 220,
+                                            "locale": "en",
+                                            "dateRange": "12M",
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
+                                            "autosize": false,
+                                            "largeChartUrl": ""
+                                        }
+                                    </script>
+                                </div>
+                                <!-- TradingView Widget END -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="card chart-grd same-card">
+                            <div class="card-body depostit-card p-1">
+
+                                <!-- TradingView Widget BEGIN -->
+                                <div class="tradingview-widget-container">
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all
+                                                markets on
+                                                TradingView</span></a></div>
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+                                        {
+                                            "symbol": "FX:GBPUSD",
+                                            "width": 350,
+                                            "height": 220,
+                                            "locale": "en",
+                                            "dateRange": "12M",
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
+                                            "autosize": false,
+                                            "largeChartUrl": ""
+                                        }
+                                    </script>
+                                </div>
+                                <!-- TradingView Widget END -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
                 </div>
+
+
+
+
+
+                <div class="row ">
+
+
+                    <div class="col-lg-2 col-sm-12">
+                        <div class="card ">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">بورس</h5>
+                                <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-center">77662</h6>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">انس طلا</h5>
+                                <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-center">229993</h6>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">بورس</h5>
+                                <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-center">77662</h6>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">انس طلا</h5>
+                                <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-center">229993</h6>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">بورس</h5>
+                                <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-center">77662</h6>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">بورس</h5>
+                                <h6 class="card-subtitle mb-2 text-muted d-flex justify-content-center">77662</h6>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+
+                <div class="row">
+                    <h5>قیمت ارز </h5>
+                    <hr>
+                    <div class="col-lg-1">ایران |</div>
+                    <div class="col-lg-1">افغانستان |</div>
+                    <div class="col-lg-1">ترکیه |</div>
+                    <div class="col-lg-1">عراق |</div>
+                    <div class="col-lg-1">ترکمنستان |</div>
+                    <div class="col-lg-1">قطر |</div>
+                    <div class="col-lg-1">عربستان |</div>
+                    <div class="col-lg-1">ارمنستان |</div>
+                    <div class="col-lg-1">تاجیکستان |</div>
+                    <div class="col-lg-1">عمان |</div>
+                    <div class="col-lg-1">آذربایجان |</div>
+                    <div class="col-lg-1">امارات | </div>
+                </div>
+
+
+                <div class="row mt-5">
+                    <div class="col-lg-6">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-responsive-sm">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Status</th>
+                                        <th>Date</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Kolor Tea Shirt For Man</td>
+                                        <td><span class="badge badge-primary">Sale</span>
+                                        </td>
+                                        <td>January 22</td>
+                                        <td class="color-primary">$21.56</td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>Kolor Tea Shirt For Women</td>
+                                        <td><span class="badge badge-success">Tax</span>
+                                        </td>
+                                        <td>January 30</td>
+                                        <td class="color-success">$55.32</td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Blue Backpack For Baby</td>
+                                        <td><span class="badge badge-danger">Extended</span>
+                                        </td>
+                                        <td>January 25</td>
+                                        <td class="text-danger">$14.85</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-responsive-sm">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Status</th>
+                                        <th>Date</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Kolor Tea Shirt For Man</td>
+                                        <td><span class="badge badge-primary">Sale</span>
+                                        </td>
+                                        <td>January 22</td>
+                                        <td class="color-primary">$21.56</td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>Kolor Tea Shirt For Women</td>
+                                        <td><span class="badge badge-success">Tax</span>
+                                        </td>
+                                        <td>January 30</td>
+                                        <td class="color-success">$55.32</td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Blue Backpack For Baby</td>
+                                        <td><span class="badge badge-danger">Extended</span>
+                                        </td>
+                                        <td>January 25</td>
+                                        <td class="text-danger">$14.85</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md"></div>
+                </div>
+
 
 
             </div>
@@ -877,8 +903,8 @@ header('Content-Type: text/html; charset=utf-8');
 
 
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        <?php
+        document.addEventListener("DOMContentLoaded", function() {
+            <?php
 
             // PHP code to read JSON data from file
             $jsonFile2 = 'python-scripts/currencies_table.json';  // Change this to the actual file path
@@ -898,34 +924,34 @@ header('Content-Type: text/html; charset=utf-8');
 
             ?>
 
-        // Function to create a table row
-        function createTableRow2(data) {
-            var row = "<tr>";
+            // Function to create a table row
+            function createTableRow2(data) {
+                var row = "<tr>";
 
-            for (var i = 0; i < data.length; i++) {
-                if (i == 0 || i == 1) {
+                for (var i = 0; i < data.length; i++) {
+                    if (i == 0 || i == 1) {
 
-                    row += "<td>" + data[i] + "</td>";
+                        row += "<td>" + data[i] + "</td>";
 
+                    }
                 }
+                row += "</tr>";
+                return row;
             }
-            row += "</tr>";
-            return row;
-        }
 
-        // Creating the table
-        var tableHTML2 = "";
+            // Creating the table
+            var tableHTML2 = "";
 
-        <?php for ($i = 0; $i < count($jsonData2); $i++) { ?>
-        tableHTML2 += createTableRow2(<?php echo json_encode($jsonData2[$i]); ?>);
-        <?php
+            <?php for ($i = 0; $i < count($jsonData2); $i++) { ?>
+                tableHTML2 += createTableRow2(<?php echo json_encode($jsonData2[$i]); ?>);
+            <?php
             }
             ?>
 
-        // Displaying the table
-        document.getElementById("currTableBody").innerHTML = tableHTML2;
+            // Displaying the table
+            document.getElementById("currTableBody").innerHTML = tableHTML2;
 
-    });
+        });
     </script>
 
 </body>
