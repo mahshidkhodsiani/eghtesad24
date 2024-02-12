@@ -1689,7 +1689,7 @@ header('Content-Type: text/html; charset=utf-8');
             </div>
             <div class="container-fluid">
                 <div class="row">
-
+                <?php include "companies_stocks.php" ?>
                     <div class="col-xl-9 wid-100">
                         <div class="row">
                             <div class="col-xl-3 col-sm-6">
