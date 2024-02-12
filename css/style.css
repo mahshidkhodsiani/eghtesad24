@@ -102,6 +102,14 @@
   --font-family-title: poppins, sans-serif, sans-serif;
   --title: #374557; }
 
+
+  .page-titles .breadcrumb-item.active,
+.page-titles .breadcrumb-item:hover {
+    background-color: #f8f9fa; /* Change the background color as needed */
+    cursor: pointer;
+}
+
+
 .gradient_one {
   background-image: linear-gradient(to right, rgba(186, 1, 181, 0.85) 0%, rgba(103, 25, 255, 0.85) 100%); }
 
@@ -974,7 +982,8 @@ progress {
 
 .col-9 {
   flex: 0 0 auto;
-  width: 75%; }
+  /* width: 75%;  */
+}
 
 .col-10 {
   flex: 0 0 auto;
@@ -1122,7 +1131,8 @@ progress {
     width: 66.66667%; }
   .col-sm-9 {
     flex: 0 0 auto;
-    width: 75%; }
+    /* width: 75%;  */
+  }
   .col-sm-10 {
     flex: 0 0 auto;
     width: 83.33333%; }
@@ -1246,7 +1256,8 @@ progress {
     width: 66.66667%; }
   .col-md-9 {
     flex: 0 0 auto;
-    width: 75%; }
+    /* width: 75%;  */
+  }
   .col-md-10 {
     flex: 0 0 auto;
     width: 83.33333%; }
@@ -1370,7 +1381,8 @@ progress {
     width: 66.66667%; }
   .col-lg-9 {
     flex: 0 0 auto;
-    width: 75%; }
+    /* width: 75%;  */
+  }
   .col-lg-10 {
     flex: 0 0 auto;
     width: 83.33333%; }
@@ -1494,7 +1506,8 @@ progress {
     width: 66.66667%; }
   .col-xl-9 {
     flex: 0 0 auto;
-    width: 75%; }
+    /* width: 75%;  */
+  }
   .col-xl-10 {
     flex: 0 0 auto;
     width: 83.33333%; }
@@ -1618,7 +1631,8 @@ progress {
     width: 66.66667%; }
   .col-xxl-9 {
     flex: 0 0 auto;
-    width: 75%; }
+    /* width: 75%;  */
+  }
   .col-xxl-10 {
     flex: 0 0 auto;
     width: 83.33333%; }
@@ -9772,9 +9786,10 @@ h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3, h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .
   margin-top: 2.5rem; }
 
 .content-body .container-fluid, .content-body .container-sm, .content-body .container-md, .content-body .container-lg, .content-body .container-xl, .content-body .container-xxl {
-  padding-top: 1.875rem;
-  padding-right: 1.875rem;
-  padding-left: 1.875rem; }
+  padding-top: 2rem;
+  padding-right: 4rem;
+  padding-left: 4rem; 
+}
   @media only screen and (max-width: 47.9375rem) {
     .content-body .container-fluid, .content-body .container-sm, .content-body .container-md, .content-body .container-lg, .content-body .container-xl, .content-body .container-xxl {
       padding-top: 1.25rem;
@@ -10332,7 +10347,8 @@ label {
     max-width: 66.66667%; }
   .col-xxl-9 {
     flex: 0 0 75%;
-    max-width: 75%; }
+    /* max-width: 75%;  */
+  }
   .col-xxl-10 {
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
@@ -13422,7 +13438,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   top: 0.625rem; }
 
 .content-body {
-  margin-left: 15rem;
+  /* margin-left: 15rem; */
   z-index: 0;
   transition: all .2s ease; }
   @media only screen and (max-width: 47.9375rem) {
